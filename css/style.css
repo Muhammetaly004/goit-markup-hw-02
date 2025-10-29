@@ -1,0 +1,51 @@
+h2,
+h1 {
+  text-align: center;
+}
+.header {
+  border: 1px solid white;
+  width: 1440px;
+  height: 72px;
+}
+.header:hover {
+  border: 1px solid purple;
+}
+.sec1 {
+  border: 1px solid white;
+  background-color: #2e2f42;
+  width: 1440px;
+  height: 600px;
+}
+.sec2 {
+  border: 1px solid black;
+  width: 1128px;
+  height: 732px;
+  margin-left: 156px;
+  margin-bottom: 792px;
+}
+.sec3 {
+  border: 1px solid black;
+  width:1440px;
+  height: 732;
+ 
+  margin-bottom: 1016px;
+  
+}
+.sec4 {
+  border: 1px solid rgb(226, 5, 5);
+  width: 1128px;
+  height: 1000px;
+  margin-left: 156px;
+  margin-bottom: 1868px;
+  position: relative;
+}
+
+.foot {
+  border: 1px solid black;
+  background-color: #2e2f42;
+  width: 1440;
+  height: 312px;
+}
+.logof {
+  background-color: #2e2f42;
+}
