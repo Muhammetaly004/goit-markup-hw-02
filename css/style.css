@@ -1,51 +1,146 @@
-h2,
-h1 {
-  text-align: center;
-}
-.header {
-  border: 1px solid white;
-  width: 1440px;
-  height: 72px;
-}
-.header:hover {
-  border: 1px solid purple;
-}
-.sec1 {
-  border: 1px solid white;
-  background-color: #2e2f42;
-  width: 1440px;
-  height: 600px;
-}
-.sec2 {
-  border: 1px solid black;
-  width: 1128px;
-  height: 732px;
-  margin-left: 156px;
-  margin-bottom: 792px;
-}
-.sec3 {
-  border: 1px solid black;
-  width:1440px;
-  height: 732;
- 
-  margin-bottom: 1016px;
-  
-}
-.sec4 {
-  border: 1px solid rgb(226, 5, 5);
-  width: 1128px;
-  height: 1000px;
-  margin-left: 156px;
-  margin-bottom: 1868px;
-  position: relative;
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #333;
 }
 
-.foot {
-  border: 1px solid black;
-  background-color: #2e2f42;
-  width: 1440;
-  height: 312px;
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
-.logof {
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #f8f8f8;
+}
+
+.header nav {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.header nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+/* SECTION 1 */
+.sec1 {
+  text-align: center;
   background-color: #2e2f42;
+  color: white;
+  padding: 100px 20px;
+}
+
+.sec1 button {
+  background-color: #4e63ff;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.sec1 button:hover {
+  background-color: #3548d4;
+}
+
+/* SECTION 2 */
+.sec2 {
+  padding: 60px 80px;
+  text-align: center;
+}
+
+.sec2 ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.sec2 li {
+  width: 250px;
+}
+
+/* 🌟 SECTION 3 - 4 RESİM YAN YANA */
+.sec3 {
+  padding: 80px 80px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.sec3 ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: nowrap; /* tümü tek sırada */
+}
+
+.sec3 li {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  width: 250px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.sec3 img {
+  border-radius: 8px;
+}
+
+/* 🌟 SECTION 4 - 3 RESİM YAN YANA */
+.sec4 {
+  padding: 80px 80px;
+  text-align: center;
+}
+
+.sec4 h2 {
+  margin-bottom: 40px;
+}
+
+.sec4 div {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: nowrap; /* her satırda 3 resim olacak */
+  margin-bottom: 40px;
+}
+
+.sec4 span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  width: 360px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* FOOTER */
+.foot {
+  text-align: center;
+  background-color: #2e2f42;
+  color: white;
+  padding: 40px;
+}
+
+.foot p {
+  max-width: 600px;
+  margin: 20px auto 0;
+  font-size: 14px;
+}
+
+.logof {
+  width: 100px;
 }
